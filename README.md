@@ -33,7 +33,7 @@ Machian Collective offers a free, non-logging and non-censored public ODI at odi
 
 ## 🔌 Getting started
 ### 🐳 Docker
-The fastest way to get started is to go with the pre-built Docker image.
+The fastest way to get started is to go with the pre-built Docker image. Please note that you need to specify port mapping `-p 10000:10000/udp` or Docker fails to bind the port.
 
 > Note that `LOGGING=1` is optional and added to show how to use options with Docker.
 
