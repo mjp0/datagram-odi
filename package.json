@@ -1,0 +1,17 @@
+{
+  "name": "datagram-odi",
+  "version": "1.0.0",
+  "description": "Datagram Open Discovery Index is a decentralized discovery database for datagrams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js full",
+    "start-server": "node index.js server"
+  },
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@hyperswarm/dht": "0.0.1",
+    "dht-rpc": "^4.1.2"
+  }
+}
