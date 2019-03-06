@@ -5,7 +5,9 @@ const pkg = require('./package.json')
 
 const port = process.env['PORT'] || 10000
 const servers = process.env['SERVERS'] ? process.env['SERVERS'].split(',') : [
-  'odi.datagram.network:10000'
+  'odi-1.datagram.network:10000',
+  'odi-2.datagram.network:10000',
+  'odi-3.datagram.network:10000',
 ]
 const logging = process.env['LOGGING'] || false
 
