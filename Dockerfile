@@ -4,6 +4,6 @@ ADD . /src
 WORKDIR /src
 RUN npm i
 
-EXPOSE 10000:10000/udp
+EXPOSE 10000/udp
 
 CMD npm start
