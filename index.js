@@ -16,6 +16,7 @@ function startServer(){
 
   server.on('ready', function () {
     console.log(`Datagram Open Discovery Index Server ${pkg.version} instance listening on ${port}...`)
+    console.log(`Logging: ${logging}`)
   })
   
   server.listen(port)
